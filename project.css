@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+    background-color:rgb(59, 58, 58);
+}
+h1 {
+	color: #37b9f1;
+	font-size: 3vw;
+	position: relative;
+	text-transform: uppercase;
+}
+
+nav{
+    align-items: center;
+    background-color:rgb(59, 58, 58);
+    color: aliceblue;
+}
+ 
+#inputs{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.algo_button{
+    /* border: 2px solid black; */
+    display: flex; 
+    flex-direction: row;
+     flex-wrap: wrap; 
+}
+
+button{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin: 12px;
+    padding: 18px 18px;
+    /* background-size: 200% auto; */
+    /* width: fit-content; */
+    border-radius: 20px;
+    display: block;
+    cursor: pointer;
+}
+
+.button_locked{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button_selected{
+    background-color: #db8c31;
+    color: black;
+}
+
+.button_unselected{
+    cursor: pointer;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 90%;
+    /* border: 2px solid blueviolet; */
+}
+
+#array_container{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 100%;
+    height: 70vh;  
+    align-items: flex-end;
+}
+
+.bar{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #00BFFF;
+    border: 1px solid red;
+    margin: 1px;
+    position: relative;
+    transition: transform .2s ease-out;
+    border-bottom: 1px solid red;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.bar_title{
+    display: flex;
+    align-self: flex-start;
+    position: relative;
+    color:white;
+    top: 20px;
+    margin-left: -5px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
